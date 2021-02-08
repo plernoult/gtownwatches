@@ -1,7 +1,7 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
 
   <%= link_to "/", class: "navbar-brand" do %>
-    <h1 class="nav-header"><strong>GTown Watches<i class="fas fa-running"></i></strong></h1>
+    <h1 class="nav-header"><strong>Athletiq<i class="fas fa-running"></i></strong></h1>
   <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,18 +14,11 @@
           <%= link_to "Watches", watches_path, class: "nav-link" %>
         </li>
         <li class="nav-item dropdown">
+          <%= image_tag "avatar.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <%= link_to "Buy a watch now", watches_path, class: "dropdown-item" %>
           </div>
         </li>
     </ul>
-  </div>
-</div>
-
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1557466362-9cc33e8460ec?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80)">
-  <div class="container">
-    <div class="banner-underline"></div>
-  </div>
-  <div class="container">
   </div>
 </div>
