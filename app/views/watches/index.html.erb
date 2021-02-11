@@ -1,67 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Parallax Effect | Pure CSS</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="container">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum veritatis
-                nemo magni odio reprehenderit atque, esse animi porro suscipit vero nobis modi quis.
-                Exercitationem quasi beatae, assumenda officia illum sunt. Cum voluptas maiores
-                vitae eius hic inventore deleniti placeat perferendis quam ut nostrum maxime optio
-                voluptatibus ab laboriosam, quia consectetur atque minus? Adipisci amet aut sint
-                voluptates delectus aperiam? Veniam ab illum enim in libero nihil culpa explicabo
-                perspiciatis veritatis non repellendus architecto excepturi nostrum porro voluptatem
-                aperiam animi asperiores, a voluptatibus temporibus minima voluptas ipsa! Recusandae
-                nostrum, aut, voluptates est error iusto, eaque excepturi soluta quas maiores amet.
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis error
-                debitis deleniti obcaecati nisi dignissimos doloribus omnis incidunt neque.
-                Aspernatur, odit. Natus, porro adipisci corporis perspiciatis aspernatur illum
-                repellendus vitae explicabo, ex reiciendis molestiae id dicta quos repudiandae at.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum veritatis
-                nemo magni odio reprehenderit atque, esse animi porro suscipit vero nobis modi quis.
-                Exercitationem quasi beatae, assumenda officia illum sunt. Cum voluptas maiores
-                vitae eius hic inventore deleniti placeat perferendis quam ut nostrum maxime optio
-                voluptatibus ab laboriosam, quia consectetur atque minus? Adipisci amet aut sint
-                voluptates delectus aperiam? Veniam ab illum enim in libero nihil culpa explicabo
-                perspiciatis veritatis non repellendus architecto excepturi nostrum porro voluptatem
-                aperiam animi asperiores, a voluptatibus temporibus minima voluptas ipsa! Recusandae
-                nostrum, aut, voluptates est error iusto, eaque excepturi soluta quas maiores amet.
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis error
-                debitis deleniti obcaecati nisi dignissimos doloribus omnis incidunt neque.
-                Aspernatur, odit. Natus, porro adipisci corporis perspiciatis aspernatur illum
-                repellendus vitae explicabo, ex reiciendis molestiae id dicta quos repudiandae at.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum veritatis
-                nemo magni odio reprehenderit atque, esse animi porro suscipit vero nobis modi quis.
-                Exercitationem quasi beatae, assumenda officia illum sunt. Cum voluptas maiores
-                vitae eius hic inventore deleniti placeat perferendis quam ut nostrum maxime optio
-                voluptatibus ab laboriosam, quia consectetur atque minus? Adipisci amet aut sint
-                voluptates delectus aperiam? Veniam ab illum enim in libero nihil culpa explicabo
-                perspiciatis veritatis non repellendus architecto excepturi nostrum porro voluptatem
-                aperiam animi asperiores, a voluptatibus temporibus minima voluptas ipsa! Recusandae
-                nostrum, aut, voluptates est error iusto, eaque excepturi soluta quas maiores amet.
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis error
-                debitis deleniti obcaecati nisi dignissimos doloribus omnis incidunt neque.
-                Aspernatur, odit. Natus, porro adipisci corporis perspiciatis aspernatur illum
-                repellendus vitae explicabo, ex reiciendis molestiae id dicta quos repudiandae at.
-            </p>
-        </div>
-        <header>
-            <h1>Parallax Effect</h1>
-        </header>
-    </body>
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+
+  <%= link_to "/", class: "navbar-brand" do %>
+    <h1 class="nav-header"><strong>GTown Watches<i class="fas fa-running"></i></strong></h1>
+  <% end %>
+</div>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/photo-1611353229593-16439c293495?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80);
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -10px;
+}
+</style>
+</head>
+<body>
+
+<!-- <p>Scroll Up and Down this page to see the parallax scrolling effect.</p> -->
+
+<div class="parallax"></div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">G-Town Watches</h3>
+  <p>YEAAH guys super pumped for my new website. Welcome to yall on the new GTown GAAANG. Shoutout to my boy Lifeofjosii for his first downpayment making this project possible. Keep an eye out for my new stash ima be posting sick content soon.</p>
+</div>
+
+</body>
+</html>
+
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax1 {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/photo-1607850479024-a596317c37fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<!-- <p>Scroll Up and Down this page to see the parallax scrolling effect.</p> -->
+
+<div class="parallax1"></div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">G-Town Watches</h3>
+  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+</div>
+
+</body>
 </html>
